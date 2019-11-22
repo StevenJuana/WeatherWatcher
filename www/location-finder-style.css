@@ -1,0 +1,51 @@
+
+body {
+    animation-name: normal;
+    animation-duration: 4s;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient( rgb(132, 237, 241), rgb(89, 175, 201));    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+@keyframes normal {
+    from {opacity: 0;}
+    to {opacity: 1;}
+    }
+.name, 
+.description {
+display: flex;
+justify-content: space-around;
+align-items: center;
+/*
+text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+*/
+}
+.name {
+    font-size: 3vmin;
+}
+.description {
+    margin-top: 3vh;
+    font-size: 2vmin;
+    flex-direction: column;
+}
+.event-section-box {
+    margin: 50px;
+    width: 75vw;
+    height: 6vh;
+}
+.search-bar {
+    width: 100%;
+    height: 100%;
+    font-size: 4vmin;
+}
+.yelpFunc {
+    font-size: 1.6vmin;
+    flex-direction: column;
+}

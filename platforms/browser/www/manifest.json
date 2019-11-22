@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "test4",
+  "short_name": "test4",
+  "version": "com.EsJayTwo.WeatherWatcher",
+  "description": "A weather-based activity helper.",
+  "author": "PhoneGap Team",
+  "icons": [],
+  "start_url": "index.html"
+}

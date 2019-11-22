@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, 
+        minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover" />
+        <meta charset='UTF-8' />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel='stylesheet' href='./style.css' />
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    </head>
+    <body id='body'>
+        <div class="first-data" id='1data'>
+            <canvas class='icon' width="200" height="200"></canvas>
+            <div class="location">
+                <h1 class='location-timezone'>Please Allow Location</h1>
+            </div>
+            <div class="temperature">
+                <div class="degree-section">
+                    <h2 class="temperature-degree"></h2>
+                    <span>°F</span>
+                </div>
+                <div class="temperature-description"></div>
+            </div>
+            <div class="event-section">
+                <h2>Click Here to Find Possible Events</h2>
+            </div>
+        </div>
+        <div class="second-data" id='2data'>
+            <div class="solo", id='solo'>
+                <i class='fa fa-user' id='user'></i>
+                <h2>Solo</h2>
+            </div>
+            <div class="party", id='party'>
+                <i class='fa fa-users' id='users'></i>
+                <h2>Party</h2>
+            </div>
+            <h2 class="party-description", id='party-desc'>Please Select Group Size</h2>
+        </div>
+        <script src='skycons.js'></script>
+        <script src='app.js'></script>
+        <script src='weather-data.js'></script>
+    </body>
+</html>

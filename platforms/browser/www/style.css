@@ -1,0 +1,137 @@
+
+body{
+    position: relative;
+    background-image: linear-gradient( rgb(109, 133, 199), rgb(82, 117, 161));
+    background-size: cover;
+}
+.first-data {
+    position: absolute;
+    z-index: 3;
+    animation-name: normal;
+    animation-duration: 4s;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+@keyframes normal {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+.location, 
+.temperature {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.temperature {
+    flex-direction: column;
+}
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span{
+    margin: 10px;
+    font-size: 5vmin;
+}
+.degree-section h2{
+    font-size: 9vmin;
+}
+.event-section h2{
+    font-size: 3vmin;
+}
+.event-section {
+    border-radius: 50px;
+    margin: 70px;
+    height: 15vh;
+    width: 60vw;
+    display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+cursor: pointer;
+background: linear-gradient(rgb(0,150,163), rgb(0,62,143));
+font-family: 'Quicksand', sans-serif;
+}
+.icon {
+    margin: 40px;
+    height: 30vh;
+    width: 50vw;
+}
+.location-timezone {
+    font-size: 9vmin;
+}
+.temperature-description {
+    font-size: 5vmin;
+}
+.second-data {
+    opacity: 0;
+    z-index: 2;
+    width: 100%;
+    top: 25%;
+    bottom: 25%;
+    position: absolute;
+}
+.solo {
+    background-image: linear-gradient(rgb(126, 1, 1), rgb(71, 2, 2));
+    border-radius: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    height: 85%;
+    width: 40%;
+    float: left;
+}
+.party {
+    background-image: linear-gradient(rgb(114, 110, 110), rgb(48, 47, 47));
+    border-radius: 10%;
+    margin: 5%;
+    height: 85%;
+    width: 40%;
+    float: left;
+}
+.party-description {
+    position: absolute;
+    font-size: 4vmin;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    left: 27%;
+    bottom: -15%;
+}
+#user,
+#users {
+    font-size: 25vmin;
+    color: white;
+}
+#user {
+    margin-left: 25%;
+    margin-top: 25%;
+}
+#users {
+    margin-left: 15%;
+    margin-top: 20%;
+}
+.solo h2,
+.party h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10vmin;
+    color: white;
+}
+.solo h2 {
+    margin-left: 22%;
+    margin-top: 10%;
+}
+.party h2 {
+    margin-left: 20%;
+    margin-top: 15%;
+}
+#back {
+    font-size: 10vmin;
+}

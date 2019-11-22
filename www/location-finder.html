@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, 
+        minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover" />
+        <meta charset='UTF-8' />
+        <link rel='stylesheet' href='./location-finder-style.css' />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="name">
+            <h1>Where do you want to go?</h1>
+        </div>
+        <div class="event-section-box">
+            <form id='formid'>
+                <input class='search-bar' type="text" placeholder="Enter here" required>
+                <input class='submit' type="submit" id='submit' style="display: none"/>
+            </form>
+        </div>
+        <div class="description">
+            <h2>Please input city and state name for more accurate results</h2>
+        </div>
+        <div class="yelpFunc">
+            <h2>(Yelp functionality only available for places within the US)</h2>
+        </div>
+        <div class="clearfix"></div>
+        <script src='location-finder-prog.js'></script>
+        <script src='weather-data.js'></script>
+    </body>
+</html>

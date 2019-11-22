@@ -1,0 +1,52 @@
+
+body {
+    animation-name: normal;
+    animation-duration: 4s;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient( rgb(111, 37, 117), rgb(133, 57, 120));    
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+@keyframes normal {
+    from {opacity: 0;}
+    to {opacity: 1;}
+    }
+
+a {
+    color: white;
+}
+
+h1 {
+    font-size: 4vmin;
+}
+
+h2 {
+    font-size: 3vmin;
+}
+
+li {
+    font-size: 4vmin;
+    width: 170px;
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    /*
+    padding-left: 5vw;
+    padding-right: 15vw;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    */
+}
+
+.food-section a{
+    font-style: italic;
+    color: pink;
+    font-size: 4vmin;
+}

@@ -1,0 +1,85 @@
+
+body {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient( rgb(132, 237, 241), rgb(89, 175, 201));
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+.name, 
+.description {
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+@keyframes title {
+    from {opacity: 0;}
+    to {opacity: 1;}
+    }
+
+.name {
+    animation-name: title;
+    animation-duration: 4s;
+    font-size: 5vmin;
+}
+.description {
+    animation-name: description;
+    animation-duration: 4s;
+    font-size: 3vmin;
+    flex-direction: column;
+}
+
+@keyframes description {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+
+.event-section-box {
+    margin: 50px;
+    width: 80%;
+    height: 100px;
+}
+.own-section,
+.other-section {
+animation-name: clouds;
+animation-duration: 4s;
+    font-size: 3vmin;
+    height: 20vh;
+    width: 35vw;
+    display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+cursor: pointer;
+background: url('cloud-icon.png');
+background-size: cover;
+font-family: 'Quicksand', sans-serif;
+}
+.own-section {float:left}
+.other-section {float:right}
+.clearfix {
+    clear:both;
+}
+.text1,
+.text2 {
+    padding-top: 30%;
+    color: black;
+}
+
+@keyframes clouds{
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+
+.credits {
+    animation-name: clouds;
+    animation-duration: 4s;
+    margin-top: 10vh;
+}
